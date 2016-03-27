@@ -2,8 +2,8 @@ angular.module('appRoutes', []).config(['$routeProvider', function($routeProvide
   $routeProvider
 
   .when('/', {
-    templateUrl:'views/examples.html',
-    controller: 'examplesController'
+    templateUrl:'views/login.html',
+    controller: 'usersController'
   })
 
 }]);

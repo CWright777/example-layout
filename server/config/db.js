@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var fs = require('fs');
-mongoose.connect('mongodb://localhost/CONFIGURE'
+mongoose.connect('mongodb://localhost/test')
 
 var models_path = __dirname + '/../models'
 

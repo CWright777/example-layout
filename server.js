@@ -9,6 +9,6 @@ app.use(express.static(path.join(__dirname, './public')));
 require('./server/config/db.js')
 require('./server/config/routes.js')(app);
 
-app.listen(80, function() {
-  console.log('listening on: 80');
+app.listen(8000, function() {
+  console.log('listening on: 8000');
 });

@@ -1,6 +1,6 @@
-angular.module('ordersApp',[
+angular.module('exampleApp',[
     'ngRoute',
     'appRoutes',
-    'examplesCtrl',
-    'examplesService'
+    'usersCtrl',
+    'userService'
 ])
